@@ -1,13 +1,13 @@
 return {
-  -- add gruvbox
-  { "ellisonleao/gruvbox.nvim" },
-  { "srcery-colors/srcery-vim" },
-
-  -- Configure LazyVim to load gruvbox
   {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "srcery",
+    { "jeffkreeftmeijer/vim-numbertoggle", enable = true },
+    { "ellisonleao/gruvbox.nvim", enable = false },
+    { "srcery-colors/srcery-vim", enable = true },
+    {
+      "LazyVim/LazyVim",
+      opts = {
+        colorscheme = "srcery",
+      },
     },
   },
 }
